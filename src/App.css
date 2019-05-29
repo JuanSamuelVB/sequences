@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-input {
+  width: 90%;
+  font-size: 2em;
+  font-family: Baskerville;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  resize: none;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+.App-widgets {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  display: inline-block;
+  text-align: left;
+}
+
+.App-widgets > * {
+  display: inline-block;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+:focus {
+  outline: 1px dashed black;
+  outline-offset: 4px;
+}

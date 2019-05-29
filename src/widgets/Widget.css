@@ -1,0 +1,13 @@
+.Widget-name {
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid black;
+}
+
+.Widget-value {
+  font-size: 4em;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
