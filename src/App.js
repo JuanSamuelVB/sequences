@@ -26,7 +26,7 @@ class App extends React.Component {
 
     const input = event.target.value
       .split(',')
-      .map(x => x.replace(/[^0-9exX\-\.]/g, ""))
+      .map(x => x.replace(/[^0-9exX\-.]/g, ""))
       .map(x => +x)
       .filter(x => !Number.isNaN(x));
 
