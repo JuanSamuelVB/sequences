@@ -45,7 +45,7 @@ class App extends React.Component {
     return (
       <div className="App">
           <textarea className="App-input"
-                    autoFocus="true"
+                    autoFocus={true}
                     rows="1"
                     placeholder="e.g. 1, 2, 3, ..."
                     onChange={this.handleChange}></textarea>
